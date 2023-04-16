@@ -1,0 +1,160 @@
+/* UTILITIES */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.a {
+  text-decoration: none;
+}
+
+.li {
+  list-style: none;
+}
+/* NAVBAR STYLING STARTS */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: skyblue;
+  color: black;
+}
+
+.nav-links a {
+  color: black;
+  font-size: 30px;
+}
+
+/* LOGO */
+.logo {
+  font-size: 50px;
+  color: maroon;
+}
+
+/* NAVBAR MENU */
+.menu {
+  display: flex;
+  gap: 1em;
+  font-size: 18px;
+}
+
+.menu li:hover {
+  background-color: #4c9e9e;
+  border-radius: 5px;
+  transition: 0.3s ease;
+}
+
+.menu li {
+  padding: 5px 14px;
+}
+
+/* HOME PAGE */
+.section-padding {
+  padding: 100px 0;
+}
+
+.carousel-item {
+  height: 100vh;
+  min-height: 300px;
+}
+
+.carousel-caption {
+  bottom: 220px;
+  z-index: 2;
+}
+
+.carousel-caption h5 {
+  color: black;
+  font-size: 45px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-top: 25px;
+}
+
+.carousel-caption p {
+  color: black;
+  width: 40%;
+  margin: auto;
+  font-size: 25px;
+  line-height: 1.9;
+  font-style: courier;
+}
+
+
+/* RESPONSIVE CSS */
+
+@media only screen and (max-width: 767px) {
+  .navbar {
+    text-align: center;
+  }
+  .carousel-caption {
+    bottom: 125px;
+  }
+  .carousel-caption h5 {
+    font-size: 15px;
+  }
+  .carousel-caption a {
+    padding: 10px 15px;
+  }
+  .carousel-caption p {
+    width: 100%;
+    line-height: 1.6;
+    font-size: 12px;
+  }
+}
+
+.container {
+  background-color: lightcyan;
+  width: 1500px;
+  border: 10px solid black;
+  padding: 100px;
+  margin-top: 50px;
+}
+.fa {
+  padding: 30px;
+  font-size: 18px;
+  width: 40px;
+  text-align: center;
+  text-decoration: none
+  margin: 5px 2px;
+}
+.fa:hover {
+  opacity: 0.7;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+.btn {
+  background: white;
+  border: 1px solid black;
+}
+.button {
+  background-color: dimgray;
+  border: 2px solid black;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.container input {
+  padding: 20px;
+  font-size: 20px;
+  width: 250px;
+  height: 60px;
+  border: 1px solid black;
+}

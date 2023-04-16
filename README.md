@@ -1,1 +1,1 @@
-# SampleCode.com
+# SampleCode
